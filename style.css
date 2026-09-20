@@ -1,0 +1,119 @@
+*{margin: 0;
+}
+
+.header-content{
+    text-align: center;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-navbar{
+    display: flex;
+    background-color: skyblue;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.link-navbar a{
+    text-decoration: none;
+    color: #05374a
+    flex-direction: row;
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0,25);
+    transition: 0.3s;
+}
+
+.link-navbar a:hover{
+    background-color: #0284c7;
+    color: white;
+}
+
+.poto{
+ height: 350px;
+    padding: 30px;
+      
+}
+
+#hero{
+    background: linear-gradient( skyblue, pink);
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 100px;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+.deskripsi{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color:blanchedalmond
+    width: 500px;
+    padding: 50px;
+    border-radius: 15px;
+    align-items: center;
+    gap: 20px;
+}
+
+.deskripsi h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.konten-bio{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.deskripsi-2{
+ background-color: rgb(255, 209, 216);
+    text-align: left;
+    color:blanchedalmond
+    width: 500px;
+    padding: 50px;
+    border-radius: 15px;
+    align-items: center;
+    gap: 20px;   
+}
+
+.paragraf{
+    text-align: justify;
+    gap: 20px;
+}
+
+.paragraf-2{
+    text-align: center;
+    gap: 20px;
+}
+
+.footer-content{
+    background-color: rgb(255, 203, 212);
+    text-align: center;
+}
+
+

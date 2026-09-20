@@ -3,43 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Personal Website</title>
-    <h1>Contact Me</h1>
-  </head>
-  <body>
-    <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> | <a href="contact.html">Contact</a>| <a href="katalog.html">Katalog</a>
-    </nav>
-    <hr />
-  </body>
-</html>
-
-<!doctype html>
-<html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Personal Website</title>
-    <h2>Informasi Kontak</h2>
-  </head>
-  <body>
-    <p>
-      Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui
-      form berikut.
-    </p>
-    Anda juga dapat mengirim email ke
-    <a href="mailto:syahlaarihhadatulaisy8@gmail.com"
-      >syahlaarihhadatulaisy8@gmail.com</a
-    >
-  </body>
-</html>
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Basic</title>
-    <h2>Form Pesan</h2>
+    <link rel="stylesheet" href="style.css" />
     <style>
       td {
         padding: 10px;
@@ -73,108 +37,135 @@
     </style>
   </head>
   <body>
-    <form>
-      <table
-        border="1px solid"
-        width="50%"
-        style="border-collapse: collapse; margin: 0 auto"
-      >
-        <tr>
-          <td colspan="2" style="text-align: center" Portofolio Project><b>Form Data Kontak</b></td>
-        </tr>
-        <tr>
-          <td class="label"><b>Nama :</b></td>
-          <td class="input"><input type="text" name="nama" /></td>
-        </tr>
-        <tr>
-          <td class="label"><b>Email :</b></td>
-          <td class="input"><input type="email" name="email" /></td>
-        </tr>
-        <tr>
-          <td class="label"><b>Nomor Telepon</b></td>
-          <td class="input"><input type="number" name="nomer_telepon" /></td>
-        </tr>
-        <tr>
-          <td class="label">Jenis Kelamin :</td>
-          <td class="input">
-            <input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki
-            <input type="radio" name="perempuan" value="Perempuan" /> Perempuan
-          </td>
-        </tr>
-        <tr>
-          <td class="label">Tanggal Lahir :</td>
-          <td class="input"><input type="date" name="tanggal_lahir" /></td>
-        </tr>
-        <tr>
-          <td class="label">Tabel Pesan :</td>
-          <td>
-            <select name="Tabel Pesanan">
-              <option></option>
-              <option value="Diskusi">Diskusi</option>
-              <option value="Konsultasi">Konsultasi</option>
-              <option value="Custom">Custom</option>
-              <option value="Pre-Order">Pre-Order</option>
-              <option value="Barang Ready">Barang Ready</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td class="label">Jenis Pesan :</td>
-          <td class="input">
-            <input type="radio" name="Jenis Pesan" value="Pertanyaan" />
-            Pertanyaan
-            <input type="radio" name="Jenis Pesan" value="Saran" /> Saran
-            <input type="radio" name="Jenis Pesan" value="Lainnya" /> Lainnya
-          </td>
-        </tr>
-
-        <tr>
-          <td class="label">Pesan :</td>
-          <td class="textarea">
-            <textarea name="alamat" rows="5" cols="33"></textarea>
-          </td>
-        </tr>
-        <tr>
-          <td class="label">Salinan Pesan :</td>
-          <td>
-            <input
-              type="checkbox"
-              name="Salinan Pesan"
-              value="Kiriman salinan pesan ke email saya"
-            />Kiriman salinan pesan ke email saya
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" style="text-align: center">
-            <input type="submit" value="Kirim Pesan" />
-            <input type="reset" value="Reset" />
-          </td>
-        </tr>
-      </table>
-    </form>
-  </body>
-</html>
-
-<!doctype html>
-  <html lang="id">
-    <head>
-      <meta charset="UTF-8" />
-      <title>Personal Website</title>
-    </head>
-    <body>
-      <br>
-      <em>Catatan: karena website ini hanya menggunakan HTML, form belum terhubung ke server/database</em>
-    <hr>
-    <br>
-     <nav>
-      <br>
-      <a href="index.html">Kembali ke Home</a> 
+    <div class="header-content">
+      <h1>Contact Me</h1>
+    </div>
+    <nav>
+      <div class="link-navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+        <a href="katalog.html">Katalog</a>
+      </div>
     </nav>
+    <hr />
+    <section id="hero">
+      <div class="deskripsi">
+        <h2>Form Pesan</h2>
+        <div class="paragraf-2">
+          <p>
+            Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya
+            melalui form berikut.
+          </p>
+          Anda juga dapat mengirim email ke
+          <a href="mailto:syahlaarihhadatulaisy8@gmail.com"
+            >syahlaarihhadatulaisy8@gmail.com</a
+          >
+        </div>
+
+        <div class="deskripsi-2">
+          <form>
+            <table
+              border="1px solid"
+              width="50%"
+              style="border-collapse: collapse; margin: 0 auto"
+            >
+              <tr>
+                <td colspan="2" style="text-align: center" Portofolio Project>
+                  <b>Form Data Kontak</b>
+                </td>
+              </tr>
+              <tr>
+                <td class="label"><b>Nama :</b></td>
+                <td class="input"><input type="text" name="nama" /></td>
+              </tr>
+              <tr>
+                <td class="label"><b>Email :</b></td>
+                <td class="input"><input type="email" name="email" /></td>
+              </tr>
+              <tr>
+                <td class="label"><b>Nomor Telepon</b></td>
+                <td class="input">
+                  <input type="number" name="nomer_telepon" />
+                </td>
+              </tr>
+              <tr>
+                <td class="label">Jenis Kelamin :</td>
+                <td class="input">
+                  <input type="radio" name="laki-laki" value="Laki-laki" />
+                  Laki-laki
+                  <input type="radio" name="perempuan" value="Perempuan" />
+                  Perempuan
+                </td>
+              </tr>
+              <tr>
+                <td class="label">Tanggal Lahir :</td>
+                <td class="input">
+                  <input type="date" name="tanggal_lahir" />
+                </td>
+              </tr>
+              <tr>
+                <td class="label">Tabel Pesan :</td>
+                <td>
+                  <select name="Tabel Pesanan">
+                    <option></option>
+                    <option value="Diskusi">Diskusi</option>
+                    <option value="Konsultasi">Konsultasi</option>
+                    <option value="Custom">Custom</option>
+                    <option value="Pre-Order">Pre-Order</option>
+                    <option value="Barang Ready">Barang Ready</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="label">Jenis Pesan :</td>
+                <td class="input">
+                  <input type="radio" name="Jenis Pesan" value="Pertanyaan" />
+                  Pertanyaan
+                  <input type="radio" name="Jenis Pesan" value="Saran" /> Saran
+                  <input type="radio" name="Jenis Pesan" value="Lainnya" />
+                  Lainnya
+                </td>
+              </tr>
+
+              <tr>
+                <td class="label">Pesan :</td>
+                <td class="textarea">
+                  <textarea name="alamat" rows="5" cols="33"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td class="label">Salinan Pesan :</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="Salinan Pesan"
+                    value="Kiriman salinan pesan ke email saya"
+                  />Kiriman salinan pesan ke email saya
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="text-align: center">
+                  <input type="submit" value="Kirim Pesan" />
+                  <input type="reset" value="Reset" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <br />
+        <em
+          >Catatan: karena website ini hanya menggunakan HTML, form belum
+          terhubung ke server/database</em
+        >
+      </div>
+    </section>
+    <div class="footer-content">
+      <a href="index.html">Kembali ke Home</a>
       <footer>
-        <p>
-          &copy; 2026 Syahlaa Rihhadatul'Aisy Zahara P.
-        </p>
+        <p>&copy; 2026 Syahlaa Rihhadatul'Aisy Zahara P.</p>
       </footer>
-    </body>
-  </html>
+    </div>
+  </body>
 </html>
